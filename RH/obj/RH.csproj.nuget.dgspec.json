@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\workspace-fiapon-csharp\\ByteBank\\RH\\RH.csproj": {}
+  },
+  "projects": {
+    "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj",
+        "projectName": "ByteBank",
+        "projectPath": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj",
+        "packagesPath": "C:\\Users\\m.mendes.da.silva\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.mendes.da.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace-fiapon-csharp\\ByteBank\\RH\\RH.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace-fiapon-csharp\\ByteBank\\RH\\RH.csproj",
+        "projectName": "RH",
+        "projectPath": "C:\\workspace-fiapon-csharp\\ByteBank\\RH\\RH.csproj",
+        "packagesPath": "C:\\Users\\m.mendes.da.silva\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace-fiapon-csharp\\ByteBank\\RH\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.mendes.da.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj": {
+                "projectPath": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
