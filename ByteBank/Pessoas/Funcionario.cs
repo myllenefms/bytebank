@@ -30,19 +30,19 @@ namespace ByteBank.Pessoas
             
         }
 
-        public bool Promover( int tempoDeEmpresa)
+        public bool Promover()
         {
-           if(tempoDeEmpresa < 1)
+           if(this.tempoDeEmpresa < 1)
            {
                return false;
            }
-           else if (tempoDeEmpresa >= 20)
+           else if (this.tempoDeEmpresa >= 20)
            {
                 id = 1;
                 AjustarSalario();
                 return true;
            }
-           else if (tempoDeEmpresa >= 10)
+           else if (this.tempoDeEmpresa >= 10)
            {
                 id = 3;
                 AjustarSalario();
@@ -55,22 +55,22 @@ namespace ByteBank.Pessoas
            }
         }
 
-        public void Bonificar(int tempoDeEmpresa)
+        public double Bonificar()
         {
             double bonus = this.salario;
-            if (tempoDeEmpresa >= 20)
+            if (this.tempoDeEmpresa >= 20)
             {
                 bonus *= 0.20;
                 this.salario += bonus;
-                return;
+                return bonus;
             }
-            else if (tempoDeEmpresa >= 10)
+            else if (this.tempoDeEmpresa >= 10)
             {
                 bonus *= 0.10;
                 this.salario += bonus;
-                return;
+                return bonus;
             }
-            else return;
+            else return bonus;
         }
 
         public void AjustarSalario()

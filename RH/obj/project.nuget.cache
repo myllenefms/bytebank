@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jmp8W2/faVEijnd1sV77V19Kca4UXmI2dDXf0JBcY0R+4YrWxJvITYkD6VEpc6DanHQyo98fAlzypV/jy4qv/Q==",
+  "dgSpecHash": "cSMCEFKd0USp9vVF6FWCzAUBwX6mCQbynnGUXoqgvdCGLYvAziu3Sf7CuROdtS6yoOxlWRx/PEeum/OL7zsLsw==",
   "success": true,
-  "projectFilePath": "C:\\workspace-fiapon-csharp\\ByteBank\\RH\\RH.csproj",
+  "projectFilePath": "C:\\workspace-csharp\\ByteBank\\RH\\RH.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

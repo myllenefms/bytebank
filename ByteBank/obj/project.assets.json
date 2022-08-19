@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj",
+      "projectUniqueName": "C:\\workspace-csharp\\ByteBank\\ByteBank\\ByteBank.csproj",
       "projectName": "ByteBank",
-      "projectPath": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\ByteBank.csproj",
+      "projectPath": "C:\\workspace-csharp\\ByteBank\\ByteBank\\ByteBank.csproj",
       "packagesPath": "C:\\Users\\m.mendes.da.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace-fiapon-csharp\\ByteBank\\ByteBank\\obj\\",
+      "outputPath": "C:\\workspace-csharp\\ByteBank\\ByteBank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m.mendes.da.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
